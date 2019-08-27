@@ -41,6 +41,7 @@ via membership in teams:
 
 - Create a team in your organization named `secrets-admin`, or for
 assembly-specific access named `secrets-admin-<assembly-name>`.
+- The team SHOULD NOT specify `Organization Scope` access.  The team should be added to individual assemblies.
 - Add the _Assembly Permissions_ to to allow modifications in _design_ and
 _transition_.
 - Add the _User Members_ or _Group Members_ as desired.
